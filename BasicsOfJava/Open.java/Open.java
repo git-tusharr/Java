@@ -1,7 +1,3 @@
-import java.util.Scanner;
-
-
-
 class Open
 {
 public static void main(String[] arr) {
