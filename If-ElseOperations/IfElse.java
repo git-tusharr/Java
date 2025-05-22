@@ -189,43 +189,92 @@ public class IfElse {
     // program to check if a chareacter is consonent or vowel
 
 
-    public static void main (String[] args)
+    // public static void main (String[] args)
+    // {
+    //     Scanner input=new Scanner(System.in);
+
+    //     System.out.println("Enter a single alphabet: ");
+    //     char alphabet=input.next().charAt(0);
+
+    //     if (alphabet >= 'a' && alphabet <= 'z') 
+    //     {
+    //         // Check for vowels
+    //         if (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u') 
+    //         {
+    //             System.out.println(alphabet + " is a Vowel.");
+    //         } 
+    //         else
+    //          {
+    //             System.out.println(alphabet + " is a Consonant.");
+    //          }
+
+    //      }
+    //      else if (alphabet >= 'A' && alphabet <= 'B') 
+    //      {
+    //        if (alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U') 
+    //         {
+    //             System.out.println(alphabet + " is a Vowel.");
+    //         } 
+    //         else
+    //          {
+    //             System.out.println(alphabet + " is a Consonant.");
+    //          } 
+    //      }
+    //      else
+    //      {
+    //         System.out.println("Invalid input. Please enter a letter (A-Z or a-z).");
+    //     }
+    // }
+
+    
+public static void main(String[] args)
+{
+
+    int setPass=1111;
+    Scanner input=new Scanner(System.in);
+
+    System.out.println("Enter your password");
+    int enteredPass=input.nextInt();
+
+    if(enteredPass==setPass)
     {
-        Scanner input=new Scanner(System.in);
+        System.out.println("Correct password");
+    }
+    else
+    {
+        System.out.println("Incorrect password");
 
-        System.out.println("Enter a single alphabet: ");
-        char alphabet=input.next().charAt(0);
-
-        if (alphabet >= 'a' && alphabet <= 'z') 
+        System.out.println("Enter you password attemt left :2");
+        int enteredPass2=input.nextInt();
+            if(enteredPass==setPass)
         {
-            // Check for vowels
-            if (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u') 
-            {
-                System.out.println(alphabet + " is a Vowel.");
-            } 
-            else
-             {
-                System.out.println(alphabet + " is a Consonant.");
-             }
-
-         }
-         else if (alphabet >= 'A' && alphabet <= 'B') 
-         {
-           if (alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U') 
-            {
-                System.out.println(alphabet + " is a Vowel.");
-            } 
-            else
-             {
-                System.out.println(alphabet + " is a Consonant.");
-             } 
-         }
-         else
-         {
-            System.out.println("Invalid input. Please enter a letter (A-Z or a-z).");
+            System.out.println("Correct password");
         }
+        else
+        {
+            System.out.println("Incorrect password");
+
+            System.out.println("Enter you password attemt left :1");
+            int enteredPass3=input.nextInt();
+                if(enteredPass==setPass)
+            {
+                System.out.println("Correct password");
+            }
+            else
+            {
+                System.out.println("Incorrect password your ATM has been blocked");
+
+            }
+
+        }
+
+
     }
 
+}
+
+
+ 
 
 
 

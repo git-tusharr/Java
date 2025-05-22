@@ -6,9 +6,9 @@ public class ArithmeticOperations
     public static void main(String[] args)
     {
 
-        public static void main(String[] args)
-    {
-        // Addition of two numbers
+    //     public static void main(String[] args)
+    // {
+    //     // Addition of two numbers
 
 
         // Scanner input = new Scanner(System.in);
@@ -79,23 +79,23 @@ public class ArithmeticOperations
 
         // Percentage Calculator
 
-        Scanner input=new Scanner(System.in);
+        // Scanner input=new Scanner(System.in);
 
-        int totalMarks=300;
+        // int totalMarks=300;
 
-        System.out.println("enter marks of Hindi");
-        double hindi=input.nextDouble();
+        // System.out.println("enter marks of Hindi");
+        // double hindi=input.nextDouble();
 
-        System.out.println("Enter marks of Englis");
-        double english = input.nextDouble();
+        // System.out.println("Enter marks of Englis");
+        // double english = input.nextDouble();
 
-        System.out.println("Enter marks of Java");
-        double java = input.nextDouble();
+        // System.out.println("Enter marks of Java");
+        // double java = input.nextDouble();
 
-        double totalMarksObtained=english+hindi+java;
-        System.out.println("percentage = "+((totalMarksObtained)*100)/totalMarks);
+        // double totalMarksObtained=english+hindi+java;
+        // System.out.println("percentage = "+((totalMarksObtained)*100)/totalMarks);
 
-        input.close();
+        // input.close();
 
     }
     
