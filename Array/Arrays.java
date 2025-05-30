@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Array {
+public class Arrays {
 
     public static void main(String[] args) {
         
         // // Array
 
         // // to store multiple elements of same data types
-        // // araay are stored in heep = object
+        // // array are stored in heep = object
         // // array -declareation,instantization,initialisation,destruction
 
         // // declaration
@@ -38,6 +38,26 @@ public class Array {
 
         // dynamic initialization
 
+        // Scanner obj = new Scanner(System.in);
+
+        // System.out.println("enter the size of array");
+        // int size=obj.nextInt();
+
+        // System.out.println("enter the value of array");
+        // int arr[] = new int[size];
+        
+        // for(int i=0;i<arr.length;++i)
+        // {
+        //     arr[i]=obj.nextInt();
+        // }
+        // for(int arr1:arr)
+        // {
+        //     System.out.println(arr1);
+        // }
+        // obj.close();
+
+
+
         Scanner obj = new Scanner(System.in);
 
         System.out.println("enter the size of array");
@@ -50,11 +70,28 @@ public class Array {
         {
             arr[i]=obj.nextInt();
         }
-        for(int arr1:arr)
+        for(int k=0;k<size;k++)
         {
-            System.out.println(arr1);
+            System.out.println(arr[k]);
         }
         obj.close();
+
+
+
+        // An array of marks in 3 subject
+
+
+        // int marks[]=new int[3];
+        // marks[0]=97;
+        // marks[1]=96;
+        // marks[2]=90;
+        // // System.out.println(marks[0]);
+        // // System.out.println(marks[1]);
+        // // System.out.println(marks[2]);
+        // for(int i=0;i<3;i++)
+        // {
+        //     System.out.println(marks[i]);
+        // }
 
 
 
