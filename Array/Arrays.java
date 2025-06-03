@@ -58,23 +58,23 @@ public class Arrays {
 
 
 
-        Scanner obj = new Scanner(System.in);
+        // Scanner obj = new Scanner(System.in);
 
-        System.out.println("enter the size of array");
-        int size=obj.nextInt();
+        // System.out.println("enter the size of array");
+        // int size=obj.nextInt();
 
-        System.out.println("enter the value of array");
-        int arr[] = new int[size];
+        // System.out.println("enter the value of array");
+        // int arr[] = new int[size];
         
-        for(int i=0;i<arr.length;++i)
-        {
-            arr[i]=obj.nextInt();
-        }
-        for(int k=0;k<size;k++)
-        {
-            System.out.println(arr[k]);
-        }
-        obj.close();
+        // for(int i=0;i<arr.length;++i)
+        // {
+        //     arr[i]=obj.nextInt();
+        // }
+        // for(int k=0;k<size;k++)
+        // {
+        //     System.out.println(arr[k]);
+        // }
+        // obj.close();
 
 
 
@@ -92,6 +92,144 @@ public class Arrays {
         // {
         //     System.out.println(marks[i]);
         // }
+
+
+
+    // Scanner obj = new Scanner(System.in);
+    // System.out.println("Enter size of array");
+    // int size = obj.nextInt();
+    // System.out.println("Enter values of array");
+    // int arr[]=new int[size];
+
+    // for(int i=0;i<arr.length;i++)
+    // {
+    //     arr[i]=obj.nextInt();
+    // }
+
+    // for(int arr1:arr)
+    // {
+    //     System.err.println(arr1);
+    // }
+
+
+    // Sum of values inside an array
+
+
+
+    // Scanner obj = new Scanner(System.in);
+    // System.out.println("Enter size of array");
+    // int size = obj.nextInt();
+    // System.out.println("Enter values of array");
+    // int arr[]=new int[size];
+
+    // for(int i=0;i<arr.length;i++)
+    // {
+    //     arr[i]=obj.nextInt();
+    // }
+
+    // int sum=0;
+    //  for(int i=0;i<arr.length;i++)
+    // {
+    //     sum=sum+arr[i];
+    // }
+    // System.out.println("Sum of values of array = "+sum);
+
+    // Scanner obj=new Scanner(System.in);
+    // System.out.println("Enter the size of array");
+    // int size=obj.nextInt();
+    // int arr[]=new int[size];
+    // System.out.println("enter the values of array");
+    // for(int i=0;i<size;i++)
+    // {
+    //     arr[i]=obj.nextInt();
+    // }
+    // int sum=0;
+    // for(int i=0;i<arr.length;i++)
+    // {
+    //     sum=sum=arr[i];
+    // }
+    // System.out.println("Sum of values of array = "+sum);
+
+
+
+
+    // Reverse the numbers of an array
+
+
+//   Scanner obj = new Scanner(System.in);
+//     System.out.println("Enter size of array");
+//     int size = obj.nextInt();
+//      int arr[]=new int[size];
+//     System.out.println("Enter values of array");
+//     for(int i=0;i<arr.length;i++)
+//     {
+//         arr[i]=obj.nextInt();
+//     }
+
+//     for(int i=0;i<arr.length/2;i++) 
+//     {
+//         int temp=arr[size-i-1];
+//         arr[size-i-1]=arr[i];
+//         arr[i]=temp;
+//     }
+
+//     for(int i:arr)
+//     {
+//         System.out.println(i);
+//     }
+
+Scanner obj =new Scanner(System.in);
+System.out.println("enter size of array");
+int size=obj.nextInt();
+int[] arr=new int[size];
+
+System.out.println("enter value of array");
+
+for(int i=0;i<size;i++)
+{
+    arr[i] = obj.nextInt();
+}
+
+for(int i=0;i<arr.length/2;i++)
+{
+    int temporary=arr[size-i-1];
+    arr[size-i-1]=arr[i];
+    arr[i]= temporary;
+}
+
+for(int i:arr)
+{
+    System.out.println(i);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
