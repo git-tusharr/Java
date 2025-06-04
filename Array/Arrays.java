@@ -178,33 +178,30 @@ public class Arrays {
 //         System.out.println(i);
 //     }
 
-Scanner obj =new Scanner(System.in);
-System.out.println("enter size of array");
-int size=obj.nextInt();
-int[] arr=new int[size];
+// Scanner obj =new Scanner(System.in);
+// System.out.println("enter size of array");
+// int size=obj.nextInt();
+// int[] arr=new int[size];
 
-System.out.println("enter value of array");
+// System.out.println("enter value of array");
 
-for(int i=0;i<size;i++)
-{
-    arr[i] = obj.nextInt();
-}
+// for(int i=0;i<size;i++)
+// {
+//     arr[i] = obj.nextInt();
+// }
 
-for(int i=0;i<arr.length/2;i++)
-{
-    int temporary=arr[size-i-1];
-    arr[size-i-1]=arr[i];
-    arr[i]= temporary;
-}
+// for(int i=0;i<arr.length/2;i++)
+// {
+//     int temporary=arr[size-i-1];
+//     arr[size-i-1]=arr[i];
+//     arr[i]= temporary;
+// }
 
-for(int i:arr)
-{
-    System.out.println(i);
-}
-
-
-
-
+// for(int k:arr)
+// {
+//     System.out.println(k); 
+// }
+ 
 
 
 
