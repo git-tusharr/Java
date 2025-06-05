@@ -33,5 +33,6 @@ public class ArrayPalindrome {
         {
             System.out.println("Not a Palindrome");
         }
+        obj.close();
     }
 }
