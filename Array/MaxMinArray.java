@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class MaxMinArray{
     public static void main(String []args){
         // int[] arr={80,20,30,40,50,60,70};
@@ -8,6 +9,12 @@ public class MaxMinArray{
         //         max=arr[i];
         //     }
         // }
+        
+        
+        
+        
+        
+        
         // System.out.println(max);
 
         // maximum value
@@ -22,6 +29,11 @@ public class MaxMinArray{
         //     }
         // }
         // System.out.println(max);
+
+
+
+
+
 
         // Minimum value
 
@@ -38,6 +50,24 @@ public class MaxMinArray{
         // }
         // System.out.println("Minimum value in the array" +" is "+min);
 
+        Scanner obj=new Scanner(System.in);
+        System.err.println("enter size of the array :");
+        int size=obj.nextInt();
+        System.out.println("enter an array");
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++){
+            arr[i]=obj.nextInt();
+        }
+
+        int min=arr[0];
+        for(int i=0;i<size;i++){
+            if (min>arr[i]) {
+                min=arr[i];
+            }
+        }
+       System.out.println("Minimum value in the array is : "+min);
+
+
 
         
 
@@ -46,29 +76,7 @@ public class MaxMinArray{
     
     
     
-    // Second highest number in the array
-
-    //    int arr[]={8,7,9,5,6};
-    //    int size=arr.length;
-    //    int k=2;
-    //    for(int i=0;i<k;i++)
-    //    {
-    //     for(int j=i+1;j<size;j++)
-    //     {
-    //         if(arr[j]>arr[i])
-    //         {
-    //             //Swap
-    //             int temp=arr[j];
-    //             arr[j]=arr[i];
-    //             arr[i]=temp;
-    //         }
-    //     }
-    //    }
-    //    for(int i:arr)
-    //    {
-    //     System.out.println(i);
-    //    }
-    //    System.out.println("2nd highest="+arr[k-1]);
+   
 
 
 
