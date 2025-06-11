@@ -1,4 +1,4 @@
-public class SecondHighest{
+public class SecondLargest{
     public static void main (String []args){
          // Second highest number in the array
 

@@ -1,6 +1,6 @@
-public class FindingDuplicate {
+public class MissingNumber {
     public static void main(String[] args) {
-        int arr[]={1,3,5,7,9};
+        int arr[]={1,3,5,7,8,9};
         int size=arr.length;
 
         for(int i=0;i<size-1;++i)
