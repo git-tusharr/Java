@@ -385,6 +385,83 @@
 // Que - Subsequence
 
 
+// public class StringsQuestions{
+//     public static boolean Subsequence(String one,String two){
+//         char arr1[]=one.toCharArray();
+//         char arr2[]=two.toCharArray();
+
+//         int j=0;
+
+//         for(int i=0;i<arr1.length();i++){
+//                 if(arr1[i]==arr2[j]){
+//                     j++;
+
+//                 }
+
+//                      if(j==arr1.length){
+//                      return true;
+//                 }
+//         }
+
+   
+
+//     }
+
+//     public static void main(String []args){
+//         String one="abcdef";
+//         String two="abc";
+
+//     if (Subsequence(one, two)) {
+//             System.out.println(" is a subsequence");
+//         } else {
+//             System.out.println(" is NOT a subsequence");
+//         }
+
+
+//     }
+
+
+// }
+
+
+
+
+
+public class StringsQuestions{
+    public static boolean Subsequence(String str1,String str2){
+
+        int i=0;
+        int j=0;
+
+        while(i<str1.length() && j<str2.length()){
+           
+            if(str1.charAt(i)==str2.charAt(j)){
+                j++;
+            }
+
+            i++;
+        }
+            return j==str2.length;
+    }
+
+    public static void main(String []args){
+        String str1="abcdef";
+        String str2="abc";
+
+    if (Subsequence(str1, str2)) {
+            System.out.println(" is a subsequence");
+        } else {
+            System.out.println(" is NOT a subsequence");
+        }
+    }
+}
+
+
+
+
+
+
+
 
 
 
