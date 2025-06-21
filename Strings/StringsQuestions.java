@@ -116,55 +116,6 @@
 // }
 
 
-
-
-
-
-
-
-
-
-// Reversing of array by method ( .toCharArray() )
-
-
-// class StringsQuestions{
-
-//     static void rev(String str){
-        
-
-//         char arr[]=str.toCharArray();
-
-//         int right =str.length()-1;
-//         int left=0;
-
-//         while(left<right){
-//             char temp=arr[left];
-//             arr[left]=arr[right];
-//             arr[right]=temp;
-
-//             right--;
-//             left++;
-//         }
-
-//         for(char a:arr){
-//             System.out.println(a);
-//         }
-//     }
-
-//     public static void main (String []args){
-
-//         String str="abcd";
-//         rev(str);
-//     }
-// }
-
-
-
-
-
-
-
-
 // class StringsQuestions{
 
 //     static boolean palindrome(String str){
@@ -202,39 +153,6 @@
 // }
 
 
-
-// class StringsQuestions{
-    
-    
-
-// static boolean palindrome(String str){
-    
-//     int left=0;
-//     int right=str.length()-1;
-    
-//     while(left<right){
-//         if(str.charAt(left)!=str.charAt(right)){
-//             return false;
-//         }
-//         left++;
-//         right--;
-//     }
-//     return true;
-// }
-
-//     public static void main(String []args){
-//         String str="ABCBa";
-
-//         if(palindrome(str)){
-//             System.out.println("it is a palindrome");
-//         }
-//         else{
-//             System.out.println("it is not a palindrome");
-//         }
-
-//     }
-
-// }
 
 
 
@@ -427,34 +345,14 @@
 
 
 
-public class StringsQuestions{
-    public static boolean Subsequence(String str1,String str2){
 
-        int i=0;
-        int j=0;
 
-        while(i<str1.length() && j<str2.length()){
-           
-            if(str1.charAt(i)==str2.charAt(j)){
-                j++;
-            }
 
-            i++;
-        }
-            return j==str2.length;
-    }
 
-    public static void main(String []args){
-        String str1="abcdef";
-        String str2="abc";
 
-    if (Subsequence(str1, str2)) {
-            System.out.println(" is a subsequence");
-        } else {
-            System.out.println(" is NOT a subsequence");
-        }
-    }
-}
+
+
+
 
 
 
