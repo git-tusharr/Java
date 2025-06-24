@@ -1,19 +1,18 @@
 
-class Anagram
-{
-public static boolean anagram(String str1,String str2)
-{
+class Anagram{
 
-if(str1.length()!=str2.length()) return false;
+public static boolean anagram(String str1,String str2){
 
-int count[]=new int[26];  
+    if(str1.length()!=str2.length()) return false;
 
-for(int i=0;i<str2.length();++i)
-{
-    count[str1.charAt(i)-'a']++; 
-     count[str2.charAt(i)-'a']--;  
+    int count[]=new int[26];  
 
-}
+    for(int i=0;i<str2.length();++i){
+
+        count[str1.charAt(i)-'a']++; 
+        count[str2.charAt(i)-'a']--;  
+
+    }
 
 for(int i=0;i<26;++i)
 {
