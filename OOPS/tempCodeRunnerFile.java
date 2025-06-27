@@ -49,64 +49,24 @@
 
 //   Shallow copy / Deep copy
 
-// Shallow copy constructor - shared memory
+// Shallow copy constructor
 
-
-// class One{
-
-//     int []b;
-//     One(int b[]){
-//         this.b=b;
-//         System.out.println("Parameterized constructor"+" "+this.b);
-//     }
- 
-//     One(One obj1){
-//         this.b=obj1.b;
-//         System.out.println("copy constructor"+" "+this.b);
-//     }
-
-    
-// public static void main(String args[]){
-//     int arr[]={15};
-
-//     One obj1=new One(arr);
-
-//     One obj2=new One(obj1);
-// }
-
-// }
-
-
-
-
-
-
-
-//Deep copy constructor
 
 class One{
 
     int []b;
     One(int b[]){
         this.b=b;
+        System.out.println("Parameterized constructor"+" "+this.b);
     }
  
-    One(One obj){
-
-        this.b=new int [obj.b.length];
-        this.b[0]=obj.b[0];
+    One(One obj1){
+        this.b=obj1.b;
+        System.out.println("copy constructor"+" "+this.b);
     }
 
+    
 public static void main(String args[]){
-    int arr[]={10};
+    int arr[]={15};
 
     One obj1=new One(arr);
-    One obj2=new One(obj1);
-
-    obj1.b[0]=29;
-
-    System.out.println(obj1.b[0]);
-    System.out.println(obj2.b[0]);
-}
-
-}
