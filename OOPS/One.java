@@ -47,66 +47,41 @@
 // }
 
 
-//   Shallow copy / Deep copy
 
-// Shallow copy constructor - shared memory
+// Encapsulation
+
 
 
 // class One{
+//     int a;
+//     String b;
 
-//     int []b;
-//     One(int b[]){
+
+
+//     void bind(int a ,String b){
+//         this.a=a;
 //         this.b=b;
-//         System.out.println("Parameterized constructor"+" "+this.b);
-//     }
- 
-//     One(One obj1){
-//         this.b=obj1.b;
-//         System.out.println("copy constructor"+" "+this.b);
 //     }
 
-    
-// public static void main(String args[]){
-//     int arr[]={15};
 
-//     One obj1=new One(arr);
 
-//     One obj2=new One(obj1);
+//     void display(){
+//         System.out.println(a+" "+b);
+//     }
+
+
+
+//     public static void main(String arr[]){
+//         One obj=new One();
+//         obj.bind(10," mahesh");
+//         obj.display();
+//     }
 // }
 
-// }
+
+
+// Inheritance
 
 
 
 
-
-
-
-//Deep copy constructor
-
-class One{
-
-    int []b;
-    One(int b[]){
-        this.b=b;
-    }
- 
-    One(One obj){
-
-        this.b=new int [obj.b.length];
-        this.b[0]=obj.b[0];
-    }
-
-public static void main(String args[]){
-    int arr[]={10};
-
-    One obj1=new One(arr);
-    One obj2=new One(obj1);
-
-    obj1.b[0]=29;
-
-    System.out.println(obj1.b[0]);
-    System.out.println(obj2.b[0]);
-}
-
-}
