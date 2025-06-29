@@ -29,11 +29,14 @@
 // class One{
 
 //     int b;
+
 //     One(int b){
+//         this.b=b;
 //         System.out.println("Parameterized constructor"+" "+this.b);
 //     }
 
 //     One(One obj){
+//         this.b=obj.b;
 //         System.out.println("copy constructor"+" "+this.b);
 //     }
 
@@ -47,36 +50,6 @@
 // }
 
 
-
-// Encapsulation
-
-
-
-// class One{
-//     int a;
-//     String b;
-
-
-
-//     void bind(int a ,String b){
-//         this.a=a;
-//         this.b=b;
-//     }
-
-
-
-//     void display(){
-//         System.out.println(a+" "+b);
-//     }
-
-
-
-//     public static void main(String arr[]){
-//         One obj=new One();
-//         obj.bind(10," mahesh");
-//         obj.display();
-//     }
-// }
 
 
 
