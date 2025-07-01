@@ -53,8 +53,23 @@
 
 
 
-// Inheritance
+// polymorphism usning interface
 
+// interface is imp bescause it allow us to use abstract function
 
+interface engine{
+    void starts(); //abstract function=jiski body nhi hoti hai
+}
 
+class ee implements engine{
+    public void starts(){
+        System.out.println("Electric");
+    }
+}
 
+ class One{
+    public static void main(String []args){
+        ee obj=new ee();
+        obj.starts();
+    }
+ }
