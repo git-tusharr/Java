@@ -22,20 +22,52 @@
 
 // Method Overriding Or Run time polymorphism through classes
 
-class Animal{
-    void sound(){
-        System.out.println("Animal Sound");
-    }
+// class Animal{
+//     void sound(){
+//         System.out.println("Animal Sound");
+//     }
+// }
+
+// class cat extends Animal{
+//     void sound(){
+//         System.out.println("Cat Sound");
+//     }
+// }
+
+// class dog extends Animal{
+//     void sound(){
+//         System.out.println("dog Sound");
+//     }
+// }
+
+// class Polymorphism{
+//     public static void main (String []args){
+//         Animal obj =new cat();
+//         obj.sound();
+
+//         Animal obj1 =new dog();
+//         obj1.sound();
+//     }
+// }
+
+
+
+// Method Overriding Or Run time polymorphism through Interface - have abstract methods (function without body)
+
+
+
+interface Animal{
+    void sound();
 }
 
-class cat extends Animal{
-    void sound(){
+class cat implements Animal{
+    public void sound(){
         System.out.println("Cat Sound");
     }
 }
 
-class dog extends Animal{
-    void sound(){
+class dog implements Animal{
+    public void sound(){
         System.out.println("dog Sound");
     }
 }
@@ -49,4 +81,3 @@ class Polymorphism{
         obj1.sound();
     }
 }
-
