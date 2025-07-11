@@ -13,22 +13,18 @@ public static boolean anagram(String str1,String str2){
         count[str2.charAt(i)-'a']--;  
 
     }
-
 for(int i=0;i<26;++i)
 {
     if(count[i]!=0) return false;
 }
-
 return true;
 }
-
-
 
 public static void main(String args[])
 {
 
 String str="abcde";
-String str2="ebcd";
+String str2="ebcda";
 
 if(anagram(str,str2))
 {

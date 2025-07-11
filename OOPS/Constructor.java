@@ -130,6 +130,33 @@
 // }
 
 
+class Constructor{
+    int b[];
+
+
+    Constructor(int []b){
+        this.b=b;
+    }
+    Constructor(Constructor obj){
+        this.b=new int[obj.b.length];
+        this.b[0]=obj.b[0];
+    }
+
+    public static void main(String args[]){
+        int arr[]={15};
+        Constructor obj1=new Constructor(arr);
+        Constructor obj2=new Constructor(obj1);
+
+        obj2.b[0]=29;
+
+    System.out.println(obj1.b[0]);
+    System.out.println("Deep copy constructor "+obj2.b[0]);
+
+    }
+
+
+}
+
 
 
 
