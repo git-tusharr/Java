@@ -32,7 +32,7 @@ class Stack{
     int top;
 
     Stack(int n){
-        arr= new int[n];
+        arr= new int[n];   
         top=-1;
     }
 
