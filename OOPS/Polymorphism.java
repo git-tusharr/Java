@@ -139,7 +139,7 @@ class Dog implements Animal {
 }
 
 // Main class to test the Dog
-public class Main {
+public class Polymorphism {
     public static void main(String[] args) {
         // Create a Dog object using Animal interface
         Animal myDog = new Dog();
