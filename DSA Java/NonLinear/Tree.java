@@ -35,9 +35,6 @@
 //     }
 // }
 
-
-
-
 class Timpl{
     int data; //root data
     Timpl left; // Root ka child (left)
