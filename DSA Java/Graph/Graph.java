@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 class Edge{
     int src;
     int dest;
@@ -30,11 +29,9 @@ public class Graph{
         graph[1].add(new Edge(2,1));
         graph[1].add(new Edge(2,3));
 
-
         graph[2].add(new Edge(3,1));
         graph[2].add(new Edge(3,2));
         graph[2].add(new Edge(3,4));
-
 
         graph[3].add(new Edge(4,1));
         graph[3].add(new Edge(4,3));
@@ -48,7 +45,6 @@ public class Graph{
 
             System.out.println("--------------------");
         }
-
 
     }
 }
