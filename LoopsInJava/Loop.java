@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
 // public class Loop
 // {
@@ -247,34 +247,36 @@
 //         // }
 //     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // }
+
+
+
+
+// Fibonacci series java
+
+
+public class Loop{
+    public static void main (String args[]){
+
+        Scanner obj =new Scanner(System.in);
+
+
+        System.out.print("Enter a number");
+        int number=obj.nextInt();
+
+        int a=0;
+        int b=1;
+
+        for(int i=0;i<number;i++){
+            System.out.print(a+" ");
+            int next=a+b;
+            a=b;
+            b=next;
+
+
+        }
+
+
+    }
+}
 
