@@ -1,9 +1,5 @@
-
-
-
-
-
 class MergeSort{
+
     static int[] divide(int arr[]){
         if (arr.length<=1) return arr;
         int mid = arr.length/2;
@@ -23,7 +19,9 @@ class MergeSort{
 
         return merge(left,right);
     }
+
     static int[] merge(int left[],int right[]){
+
         int result[]=new int[left.length+right.length];
         int i=0;
         int j=0;
@@ -36,39 +34,32 @@ class MergeSort{
             else{
                 result[k++]=right[j++];
             }
-
-            
             
         }
 
-                while(i<left.length)
+            while(i<left.length)
             {
                 result[k++]=left[i++];
             }
 
 
-                 while(j<right.length)
+            while(j<right.length)
             {
                 result[k++]=right[j++];
             }
         return result;
     }
 
-        
-
-    
     public static void main(String arge []){
 
         int arr[] = {12,7,5,4,3,2};
         int sorted[]=divide(arr);
 
-        for(int i=0;i<sorted.length;++i){
-            System.out.println(sorted[i]);
-        }
+            for(int i=0;i<sorted.length;++i){
+              System.out.println(sorted[i]);
+            }
         
         }
-
-    
 }
     
     
