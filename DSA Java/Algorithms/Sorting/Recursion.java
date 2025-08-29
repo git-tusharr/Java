@@ -44,35 +44,51 @@
 
 
 
-class Recursion{
-    static void divide(int arr[]){
-        if (arr.length<=1) return;
-        int mid = arr.length/2;
+// class Recursion{
+//     static void divide(int arr[]){
+//         if (arr.length<=1) return;
+//         int mid = arr.length/2;
 
-        int left[] = new int[mid];
-        int right[] = new int[arr.length-mid];
+//         int left[] = new int[mid];
+//         int right[] = new int[arr.length-mid];
 
-        for (int i=0;i<mid;i++){
-            left[i]=arr[i];
-        }
-        for (int i=mid;i<arr.length;i++){
-            right[i-mid]=arr[i];
-        }
+//         for (int i=0;i<mid;i++){
+//             left[i]=arr[i];
+//         }
+//         for (int i=mid;i<arr.length;i++){
+//             right[i-mid]=arr[i];
+//         }
 
-        divide(left);
-        divide(right);
+//         divide(left);
+//         divide(right);
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-            System.out.println();
+//         for (int i = 0; i < arr.length; i++) {
+//             System.out.print(arr[i] + " ");
+//         }
+//             System.out.println();
 
-    }
-    public static void main(String arge []){
+//     }
+//     public static void main(String arge []){
 
-        int arr[] = {12,7,5,4,3,2};
+//         int arr[] = {12,7,5,4,3,2};
 
-        divide(arr);
+//         divide(arr);
         
-        }
+//         }
+//     }
+
+
+
+public class Recursion{
+    static int factorial(int n){
+        if (n==1) return 1;
+        return n*factorial(n-1);
     }
+
+    public static void main (String args[]){
+        int result=factorial(4);
+        System.out.print(result);
+    }
+}
+
+
