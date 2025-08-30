@@ -14,10 +14,7 @@ class QuickSort{
         for(int j=low;j<high;++j){
             if(arr[j]<pivot){
 
-                int temp=arr[j];
-                arr[j]=arr[i];
-                arr[i]=temp;
-                ++i;
+                 
                 
             }
         }
