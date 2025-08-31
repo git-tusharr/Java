@@ -9,7 +9,7 @@ class QuickSort{
     }
 
     static int partion(int arr[],int low,int high){
-        int pivot=arr[high];
+        int pivot=arr[high]; 
         int i=low;
         for(int j=low;j<high;++j){
             if(arr[j]<pivot){
