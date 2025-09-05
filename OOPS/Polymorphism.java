@@ -13,7 +13,7 @@
 //     public static void main(String args[]){
 //         Polymorphism obj =new Polymorphism();
 //         obj.sum();
-//         obj.sum(2);
+//         obj.sum(5);
 //     }
 
 // }
@@ -56,31 +56,31 @@
 
 
 
-// interface Animal{
-//     void sound();
-// }
+interface Animal{
+    void sound();
+}
 
-// class cat implements Animal{
-//     public void sound(){
-//         System.out.println("Cat Sound");
-//     }
-// }
+class cat implements Animal{
+    public void sound(){
+        System.out.println("Cat Sound");
+    }
+}
 
-// class dog implements Animal{
-//     public void sound(){
-//         System.out.println("dog Sound");
-//     }
-// }
+class dog implements Animal{
+    public void sound(){
+        System.out.println("dog Sound");
+    }
+}
 
-// class Polymorphism{
-//     public static void main (String []args){
-//         Animal obj =new cat();
-//         obj.sound();
+class Polymorphism{
+    public static void main (String []args){
+        Animal obj =new cat();
+        obj.sound();
 
-//         Animal obj1 =new dog();
-//         obj1.sound();
-//     }
-// }
+        Animal obj1 =new dog();
+        obj1.sound();
+    }
+}
 
 
 
@@ -126,23 +126,31 @@
 
 
 // Interface declaration
-interface Animal {
-    void bark();  // method with no parameters, returns void
-}
+// interface Animal {
+//     void bark();  // method with no parameters, returns void
+// }
 
-// Dog class implements Animal
-class Dog implements Animal {
-    // Override the bark method
-    public void bark() {
-        System.out.println("Dog is barking");
-    }
-}
+// // Dog class implements Animal
+// class Dog implements Animal {
+//     // Override the bark method
+//     public void bark() {
+//         System.out.println("Dog is barking");
+//     }
+// }
 
-// Main class to test the Dog
-public class Polymorphism {
-    public static void main(String[] args) {
-        // Create a Dog object using Animal interface
-        Animal myDog = new Dog();
-        myDog.bark();  // Output: Dog is barking
-    }
-}
+// // Main class to test the Dog
+// public class Polymorphism {
+//     public static void main(String[] args) {
+//         // Create a Dog object using Animal interface
+//         Animal myDog = new Dog();
+//         myDog.bark();  // Output: Dog is barking
+//     }
+// }
+
+
+
+
+
+
+
+

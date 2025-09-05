@@ -67,9 +67,18 @@ class ee implements engine{
     }
 }
 
+class de implements engine{
+    public void starts(){
+        System.out.println("diesel");
+    }
+}
+
  class One{
     public static void main(String []args){
         ee obj=new ee();
         obj.starts();
+
+        de obj1=new de();
+        obj1.starts();
     }
  }
