@@ -13,7 +13,7 @@
 //         int left=0;
 
 //         while(left<right){
-//             char temp=arr[left];
+//             char temp=arr[left]; 
 //             arr[left]=arr[right];
 //             arr[right]=temp;
 
@@ -46,7 +46,7 @@ class ReverseOfArray{
             char temp=arr[left];
             arr[left]=arr[right];
             arr[right]=temp;
-
+            
             left++;
             right--;
         }
