@@ -5,15 +5,19 @@ public class Arrays {
         
         // // Array
 
+
         // // to store multiple elements of same data types
         // // array are stored in heep = object
         // // array -declareation,instantization,initialisation,destruction
 
+
         // // declaration
+
 
         // int arr1[]; // c++ style
         // int[] arr2;
         // int []arr3;
+
 
         // // invalid way -
         // // int arr[3];
@@ -21,15 +25,20 @@ public class Arrays {
 
         // // instance -
 
+
         // int [] arr4=new int[20];
+
 
         // // invalid way -
         // // int[] arr=new int[];
 
+
         // // initialization
+
 
         // int arr5[]={1,2,3,4};
         // int arr[]=new int[]{1,2,3,4};
+
 
         // invalid way -
         // int arr11[]=new int[7]{1,2,3,4,5,6,7};
@@ -38,14 +47,18 @@ public class Arrays {
 
         // dynamic initialization
 
+
         // Scanner obj = new Scanner(System.in);
+
 
         // System.out.println("enter the size of array");
         // int size=obj.nextInt();
 
+
         // System.out.println("enter the value of array");
         // int arr[] = new int[size];
         
+
         // for(int i=0;i<arr.length;++i)
         // {
         //     arr[i]=obj.nextInt();
@@ -57,15 +70,17 @@ public class Arrays {
         // obj.close();
 
 
-
         // Scanner obj = new Scanner(System.in);
+
 
         // System.out.println("enter the size of array");
         // int size=obj.nextInt();
 
+
         // System.out.println("enter the value of array");
         // int arr[] = new int[size];
         
+
         // for(int i=0;i<arr.length;++i)
         // {
         //     arr[i]=obj.nextInt();
@@ -75,7 +90,6 @@ public class Arrays {
         //     System.out.println(arr[k]);
         // }
         // obj.close();
-
 
 
         // An array of marks in 3 subject
@@ -94,17 +108,18 @@ public class Arrays {
         // }
 
 
-
     // Scanner obj = new Scanner(System.in);
     // System.out.println("Enter size of array");
     // int size = obj.nextInt();
     // System.out.println("Enter values of array");
     // int arr[]=new int[size];
 
+
     // for(int i=0;i<arr.length;i++)
     // {
     //     arr[i]=obj.nextInt();
     // }
+
 
     // for(int arr1:arr)
     // {
@@ -115,17 +130,18 @@ public class Arrays {
     // Sum of values inside an array
 
 
-
     // Scanner obj = new Scanner(System.in);
     // System.out.println("Enter size of array");
     // int size = obj.nextInt();
     // System.out.println("Enter values of array");
     // int arr[]=new int[size];
 
+
     // for(int i=0;i<arr.length;i++)
     // {
     //     arr[i]=obj.nextInt();
     // }
+
 
     // int sum=0;
     //  for(int i=0;i<arr.length;i++)
@@ -149,8 +165,6 @@ public class Arrays {
     //     sum=sum=arr[i];
     // }
     // System.out.println("Sum of values of array = "+sum);
-
-
 
 
     // Reverse the numbers of an array
@@ -201,37 +215,7 @@ public class Arrays {
 // {
 //     System.out.println(k); 
 // }
- 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-        
+    }     
 }
