@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 public class Arrays {
 
     public static void main(String[] args) {
@@ -215,6 +215,32 @@ public class Arrays {
 // {
 //     System.out.println(k); 
 // }
+
+
+
+
+
+  Scanner obj = new Scanner(System.in);
+    System.out.println("Enter size of array");
+    int size = obj.nextInt();
+     int arr[]=new int[size];
+    System.out.println("Enter values of array");
+    for(int i=0;i<arr.length;i++)
+    {
+        arr[i]=obj.nextInt();
+    }
+
+    for(int i=0;i<arr.length/2;i++) 
+    {
+        int temp=arr[size-i-1];
+        arr[size-i-1]=arr[i];
+        arr[i]=temp;
+    }
+
+    for(int i:arr)
+    {
+        System.out.println(i);
+    }
 
 
     }     
