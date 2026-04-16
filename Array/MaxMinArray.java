@@ -50,7 +50,25 @@ public class MaxMinArray{
         // }
         // System.out.println("Minimum value in the array" +" is "+min);
 
-        Scanner obj=new Scanner(System.in);
+    //     Scanner obj=new Scanner(System.in);
+    //     System.err.println("enter size of the array :");
+    //     int size=obj.nextInt();
+    //     System.out.println("enter an array");
+    //     int[] arr=new int[size];
+    //     for(int i=0;i<size;i++){
+    //         arr[i]=obj.nextInt();
+    //     }
+
+    //     int min=arr[0];
+    //     for(int i=0;i<size;i++){
+    //         if (min>arr[i]) {
+    //             min=arr[i];
+    //         }
+    //     }
+    //    System.out.println("Minimum value in the array is : "+min);
+
+
+       Scanner obj=new Scanner(System.in);
         System.err.println("enter size of the array :");
         int size=obj.nextInt();
         System.out.println("enter an array");
@@ -66,8 +84,6 @@ public class MaxMinArray{
             }
         }
        System.out.println("Minimum value in the array is : "+min);
-
-
 
         
 
