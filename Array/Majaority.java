@@ -1,5 +1,6 @@
     class Majaority {
 
+        
         public int majorityElement(int[] nums) {
             int candidate = 0;
             int count = 0;
@@ -23,7 +24,7 @@
 
             Majaority obj = new Majaority();
 
-            int[] nums = {2, 2, 1, 1, 1, 2, 2};
+            int[] nums = {2, 2,1, 1, 1 ,1,1, 2, 2};
 
             int ans = obj.majorityElement(nums);
 
