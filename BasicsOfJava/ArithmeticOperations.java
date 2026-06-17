@@ -46,14 +46,14 @@ public class ArithmeticOperations
 
     Scanner in =new Scanner (System.in);
 
-    System.out.println("enter first number");
-    int number1 = in.nextInt();
+    // System.out.println("enter first number");
+    // int number1 = in.nextInt();
 
-    System.out.println("enter second number");
-    int number2 = in.nextInt();
+    // System.out.println("enter second number");
+    // int number2 = in.nextInt();
 
-    System.out.println("Multiplication of "+number1+" and "+number2+" is "+ number1*number2);
-    in.close();
+    // System.out.println("Multiplication of "+number1+" and "+number2+" is "+ number1*number2);
+    // in.close();
 
         // Area Of Square
         // Scanner input =new Scanner(System.in);
@@ -96,6 +96,13 @@ public class ArithmeticOperations
         // System.out.println("percentage = "+((totalMarksObtained)*100)/totalMarks);
 
         // input.close();
+
+
+        int a = 10;
+int b = 30;
+
+System.out.println(a + b); // 13
+System.out.println(a % b); // 1
 
     }
     
