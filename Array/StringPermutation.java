@@ -23,8 +23,8 @@ class Solution {
 
         // Slide the window
         for (int i = n; i < m; i++) {
-            windowCount[s2.charAt(i) - 'a']++;           // add new char
-            windowCount[s2.charAt(i - n) - 'a']--;       // remove old char
+            windowCount[s2.charAt(i) - 'a']++;     
+            windowCount[s2.charAt(i - n) - 'a']--;       
 
             if (matches(s1Count, windowCount)) {
                 return true;
