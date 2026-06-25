@@ -48,4 +48,4 @@ class Solution {
                 ? ""
                 : s.substring(start, start + minLen);
     }
-}
+}   
